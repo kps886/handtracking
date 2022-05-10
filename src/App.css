@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: pink; */
+  position: fixed;
+  height: 60vh;
+  width: 100%;
+}
+
+.hero-section-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 100px;
+  position: absolute;
+  font-weight: 500;
+  z-index: 1;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.start-btn {
+  position: absolute;
+  bottom: 8%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  font-size: large;
+}
+
+.threeDimg {
+  height: 800px;
+  width: 800px;
+  position: relative;
+  /* right: -350px; */
+  /* animation: slight-motion infinite 2000ms forwards; */
+}
+
+.btn {
+  background-color: rgba(211, 211, 2111, 0.7);
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 15px;
+  color: black;
+  cursor: pointer;
+  transition: 100ms ease-in;
+}
+
+.btn:hover {
+  box-shadow: 8px 6px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.output_canvas {
+  background-color: rgba(211, 211, 2111, 0.6);
+  border-radius: 30px;
+  position: relative;
+}
+
+.output_box {
+  position: absolute;
+  top: 390px;
+  left: 350px;
+  width: 82px;
+  height: auto;
+  z-index: 10;
+}

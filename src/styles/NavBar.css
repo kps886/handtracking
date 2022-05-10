@@ -1,0 +1,38 @@
+.nav-main {
+  display: flex;
+  align-items: center;
+  /* background-color: pink; */
+  justify-content: space-between;
+  padding: 15px 60px;
+  position: relative;
+  z-index: 10;
+}
+
+.container {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo,
+.container > div {
+  font-family: "DM Sans", sans-serif;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "DM Sans", sans-serif;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 26px;
+}
